@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Announce IT
+    </title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+</head>
+<body>
+    <div class="page_Wrapper">
+        <div class="nav_section">
+            <div id="myNav" class="sideNav">
+                <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="sideNav-content">
+                    <li><a href="index.html">Home</a></li>
+                    <li> <a href="ViewallAnnounce.html"> Announcement</a></li>
+                    <li><div class="dropdown">
+                        <button class="dropbtn">MyAccount</button>
+                        <div class="dropdown-content">
+                        <a href="Myaccount.html">MyAnnouncement</a>
+                        <a href="index.html">Logout</a>
+                        </div>
+                      </div></li>
+                </div>
+              </div>
+              <span onclick="openNav()" class="openNav">&#9776;</span>
+            <div class="main_title">Announce<span class="it">IT</span></div>
+            <div class="menu_bar">
+                <ul><li><a href="index.html" >Home</a></li>
+                    <li> <a href="ViewallAnnounce.html" class="active">Announcement</a></li>
+                   <li> <div class="dropdown">
+                        <button class="dropbtn">MyAccount</button>
+                        <div class="dropdown-content">
+                        <a href="Myaccount.html">MyAnnouncement</a>
+                        <a href="index.html">Logout</a>
+                        </div>
+                      </div>
+                    </li>
+                </ul>
+            </div>   
+        </div>
+        <div class="search-div"><input type="search" placeholder="search your Announcement" name="search_form" id="search-div" class="text-search"><button type="submit" id="search-btn">Search</button></div>
+        <div class="field_container announcePart"> 
+                <div class="annaunceDiv">       
+                <div class="annaunce-item">
+                    <h3 class="announce_title"><span id="announceTitle"> National Id Announcement</span></h3>
+                    <h3> On : <span id="announce_date" class="announce_title">25/09/2019</span></h3>
+                    <p class="text_announce">
+                        The Event loop is flow used in Node to handle the asynchronous code that we write. When a program is executed, the node runtime creates a thread and all code are executed in that thread. Nodejs is an event based platform where everything happens is reactions to an
+                         event and the execution of callbacks is done by the event loop
+                  </p>
+                    <div class="announcelink-div">
+                        <div class="username" id="userinfo"><img src="../images/Jp.jpg" class="username"></div>
+                        <div><p class="writer">Writen By<br><br><span>Jean Paul NIYONIZEYE</span></p></div>
+                        
+                    </div>
+            </div>
+            
+        </div>
+        <div class="fixer"></div>
+        <div class="footer_section"><h4>&copy; All Right Reserved by Jean Paul</h4></div>
+    </div>
+    <script src="../script/index.js"></script>
+</body>
+</html>
