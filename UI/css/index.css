@@ -82,43 +82,7 @@ ul li:hover ul li{
     display: block;
     margin-top: 5%;
 }
-.dropbtn {
-    background-color: #35424a;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown {
-    position: relative;
-    list-style: none;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 105px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    height: 60px;
-    padding: 5px 5px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+
  /*---the main container styles*/
 
 .main_container{
@@ -352,12 +316,5 @@ textarea {
         margin: 2% 0 0 12%;
         width: 54%;
     }
-    .dropdown{
-        display:block;
-        color:white;
-    }
-    .dropdown-content{
 
-        background-color: rgba(0,0,0, 0.9); 
-    }
 } 
