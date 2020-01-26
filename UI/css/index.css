@@ -93,6 +93,7 @@ ul li:hover ul li{
   
   .dropdown {
     position: relative;
+    list-style: none;
     display: inline-block;
   }
   
@@ -350,5 +351,13 @@ textarea {
       #search-div{
         margin: 2% 0 0 12%;
         width: 54%;
+    }
+    .dropdown{
+        display:block;
+        color:white;
+    }
+    .dropdown-content{
+
+        background-color: rgba(0,0,0, 0.9); 
     }
 } 
