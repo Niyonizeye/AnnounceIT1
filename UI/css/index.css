@@ -266,6 +266,7 @@ h4{
     display:block;
     }
 .content-text{
+    font-size: 18px;
      margin: 2% 3% 1% 2%;
     }
 .menu_bar{
@@ -277,7 +278,7 @@ h4{
     }
  .main_text{
     margin-left:15%;
-    font-size: 23px;
+    font-size: 18px;
     }
 .text-field{
     width: 100%;
