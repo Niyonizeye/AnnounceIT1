@@ -204,12 +204,13 @@ h4{
     font-weight: bolder;
 }
 #status{
-    font-size: 20px;
+   
+  font-size: 20px;
     font-weight: bolder;
 }
 .annaunce-item{
-    margin: 3.3% 0 5% 20%;
-    border-radius: 5px;
+    margin: 3.3% 0 5% 20%; 
+      border-radius: 5px;
     width: 60%;
 }
 .announcePart{
@@ -309,7 +310,7 @@ textarea {
           display: block;
       }
       .annaunce-item{
-        margin: 3.3% 0 0 8%;
+        margin: 3.3% 0 12% 8%;
         width: 80%;
     }
       #search-div{
